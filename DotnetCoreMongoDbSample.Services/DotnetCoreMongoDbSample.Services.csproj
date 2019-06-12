@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetCoreMongoDbSample.Data\DotnetCoreMongoDbSample.Data.csproj" />
+    <ProjectReference Include="..\DotnetCoreMongoDbSample.Extensions\DotnetCoreMongoDbSample.Extensions.csproj" />
+    <ProjectReference Include="..\DotnetCoreMongoDbSample.Services.Contracts\DotnetCoreMongoDbSample.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
